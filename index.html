@@ -12,7 +12,7 @@
 
     <link rel="manifest" href="manifest.json">
 
-    <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
     <script>
     // Initialize Firebase
     var config = {
@@ -22,6 +22,21 @@
         projectId: "pwa-notes-ec59a",
         storageBucket: "",
         messagingSenderId: "582721320268"
+    };
+    firebase.initializeApp(config);
+    </script> -->
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDzjBRqnjSsgvHkzoVaO2fQ6K3vvvBd8z4",
+      authDomain: "pwa-notes-b88d5.firebaseapp.com",
+      databaseURL: "https://pwa-notes-b88d5.firebaseio.com",
+      projectId: "pwa-notes-b88d5",
+      storageBucket: "pwa-notes-b88d5.appspot.com",
+      messagingSenderId: "963586052539"
     };
     firebase.initializeApp(config);
     </script>
